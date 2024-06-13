@@ -15,6 +15,7 @@
 }
 
 /* Typography */
+
 html {
   /* 62.5% of 16px = 10px */
   font-size: 62.5%;
@@ -95,8 +96,8 @@ a {
     font-size: 1.5rem;
   }
 }
-
 /* Badges */
+
 .badge {
   border-radius: 20px;
   font-size: 2rem;
@@ -129,7 +130,6 @@ a {
     font-size: 1.2rem;
   }
 }
-
 /* Lists */
 .list {
   list-style: none;
@@ -157,7 +157,6 @@ a {
     padding-left: 0;
   }
 }
-
 /* Icons */
 .icon {
   width: 40px;
@@ -169,7 +168,7 @@ a {
 }
 
 .icon-container {
-  background-color: #f3f9fa;
+  background: #f3f9fa;
   width: 64px;
   height: 64px;
   border-radius: 100%;
@@ -177,7 +176,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 /* Buttons */
 .btn {
   border-radius: 40px;
@@ -207,12 +205,16 @@ a {
 }
 
 .btn--secondary:hover {
-  background: #00c8eb;
+  background: #05cdf0;
 }
 
 .btn--accent {
   background: var(--color-accent);
   color: #fff;
+}
+
+.btn--accent:hover {
+  background: #ec3000;
 }
 
 .btn--outline {
@@ -224,10 +226,6 @@ a {
 .btn--outline:hover {
   background: var(--color-headings);
   color: #fff;
-}
-
-.btn--accent:hover {
-  background: #ec3000;
 }
 
 .btn--block {
@@ -264,7 +262,7 @@ a {
 .input-group .input {
   border: 0;
   flex-grow: 1;
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
 }
 
 .input-group .btn {
@@ -276,7 +274,6 @@ a {
     font-size: 1.5rem;
   }
 }
-
 /* Cards */
 .card {
   border-radius: 7px;
@@ -362,4 +359,20 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+/* Media */
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
 }
